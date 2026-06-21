@@ -116,8 +116,7 @@ def header_footer(canvas, doc):
 def file_table():
     rows = [
         [p("提交文件", ST["table"]), p("内容说明", ST["table"])],
-        [p("双人联机演示视频", ST["table"]), p("展示双开 exe、创建 Listen Server、加入游戏、进入战斗地图、多人死亡重生与协作击杀。", ST["table"])],
-        [p("单人玩法演示视频", ST["table"]), p("展示单人射击、敌人追击攻击、扣血死亡、击杀得分与胜利提示。", ST["table"])],
+        [p("双人联机演示视频", ST["table"]), p("展示双开 exe、创建 Listen Server、加入游戏、进入战斗地图，以及玩家射击、敌人追击攻击、血量变化、死亡重生、协作击杀、得分与胜利提示。", ST["table"])],
         [p("技术说明 PDF", ST["table"]), p("详细说明蓝图模块、网络同步、敌人 AI、玩家系统、UI、得分胜利和打包测试。", ST["table"])],
         [p("提交简述 PDF", ST["table"]), p("概述项目背景、提交内容、文档结构与当前完成情况。", ST["table"])],
     ]
